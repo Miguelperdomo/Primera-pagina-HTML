@@ -1,0 +1,304 @@
+@import url("reset.css");
+@import url("fuentes.css");
+
+body{
+    background: #e5fd09;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#wrap{
+    width: 960px;
+    margin: auto;
+    clear: both;
+}
+
+
+/*--Style To Header--*/
+
+
+
+
+header{
+
+    width: 100%;
+    float: left;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5cfd6+0,6e7774+50,0a0e0a+51,84a59f+100 */
+    background: #1f81c7; /* Old browsers */
+    background: -moz-linear-gradient(top,  #B7C6B8 0%, #38C8EB 50%, #40EE50 51%, #38dbbd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #B7C6B8 0%,#38C8EB 50%,#40EE50 51%,#1fc0a2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #B7C6B8 0%,#38C8EB 50%,#40EE50 51%,#22c4a6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5cfd6', endColorstr='#84a59f',GradientType=0 ); /* IE6-9 */
+
+    box-shadow: 0px 3px 5px #0e0c0a;
+    -moz-box-shadow: 0px 3px 5px #0a0e0a;
+    -webkit-box-shadow: 0px 3px 5px #0a0e0a;
+}
+
+#subheader{
+    width: 960px;
+    margin: auto;
+}
+
+#logotipo{
+    float: left;
+    width: 300px;
+    padding: 10px 0px;
+}
+
+#logotipo a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #000000;
+
+}
+
+#logotipo a:hover{
+    text-decoration: none;
+}
+
+/*MENU*/
+
+header #subheader nav{
+    float: left;
+    width: 660px;
+    padding: 30px 0px;
+    text-align: right;
+}
+
+header #subheader nav ul li{
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header #subheader nav ul li a{
+    color: #000000;
+    font-size: 19px;
+    border-radius: 2px;
+        -moz-border-radius: 2px ;
+        -webkit-border-radius: 2px ;
+}
+
+
+
+/*MAIN*/
+
+#main{
+    width: 100px;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+#slideshow{
+    width: 920px;
+    height: 260px;
+    float: left;
+    background: #000000;
+    border: solid 20px #fff;
+    margin-bottom: 10px;
+}
+
+#bienvenido{
+    width: 920px;
+    float: left;
+    background: #40EE50; /*Navegadores Antiguos*/
+    background: -moz-linear-gradient(top, #006e2e 0%, #006e2e 100%);
+    background: -webkit-linear-gradient(top, #006e2e 0%, #006e2e 100%);
+    background: linear-gradient(to bottom, #006e2e 0%,#006e2e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradienent( startColorstr'006e2e', endColorstr= '006e2e', GradientType=0);
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+       -moz-border-radius:5px;
+       -webkit-border-radius:5px;
+    box-shadow: 0px 2px 2px #000; /*crea sombra Negra*/
+       -moz-box-shadow: 0px 2px 2px #000;
+       -webkit-box-shadow: 0px 2px 2px #000;
+
+}
+
+#slideshow img{
+    width: 920px;
+    height: 260px;
+}
+
+#bienvenidos article h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#bienvenidos article{
+    color: #000;
+    line-height: 27px;
+}
+
+#contenido{
+    width: 700px;
+    float: left;
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+#contenido article .fecha{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f81c7;
+    margin-bottom: 5px;
+}
+
+#contenido article .thumb{
+    width: 220px;
+    height: 150px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+#contenido article > p{
+    color: #000;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 17px;
+}
+    
+aside{
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+    background: #1f81c7;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+       -moz-border-radius: 5px;
+       -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 2px #000000;
+       -moz-box-shadow: 0px 2px 2px #000;
+       -webkit-box-shadow: 0px 2px 2px #000;
+}
+
+aside .widget{
+    margin-bottom: 10px;
+    float: left;
+}
+
+aside .widget >h3{
+    background: #000;
+    color: #1f81c7;
+    width: 220px;
+    padding: 10px 0px;
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside .widget a{
+    color: #000;
+}
+
+aside .widget ul li{
+    margin-bottom: 5px;
+
+}
+
+aside .widget img{
+    width: 220px;
+    height: 170px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    clear: both; /*elimina estilos*/
+    box-shadow: 0px 2px 2px #000; /*crea sombras negras*/
+         -moz-box-shadow: 0px 2px 2px #000;
+         -webkit-box-shadow: 0px 2px 2px #000;
+    border-radius: 5px;
+         -moz-border-radius: 5px;
+         -webkit-border-radius: 5px;
+    
+    background: #22c4a6;
+
+}
+
+footer section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-align: justify;
+    line-height: 20px; /*separacion entre lineas*/
+}
+
+footer #acerca-de-h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #B7C6B8;
+    margin-bottom: 5px;
+}
+
+footer #redes-s > div{
+    width: 220px;
+    height: 60px;
+    float: left;
+    opacity: 0.4;
+    background: #006e2e;
+}
+footer #redes-s > div a{
+    width: 220px;
+    height: 60px;
+    display: inline-block;
+}
+
+footer #redes-s .email{
+    background: url('../img/logo-Gmail-1.png');
+    margin-bottom: 10px;
+}
+
+footer #redes-s .twitter{
+    background: url('../img/logo_twitter.png');
+    margin-bottom: 10px;
+}
+
+footer #redes-s .youtube{
+    background: url('../img/800px-YouTube_social_white_square_\(2017\).svg.png');
+    margin-bottom: 10px;
+}
+
+footer #redes-s .facebook{
+    background: url('../img/descarga\ facebook.png');
+    margin-bottom: 10px;
+}
+
+footer #redes-s >div:hover{
+    opacity: 1;
+}
+
+#copryright {
+    float: left;
+    width: 960px;
+    margin: 10px 0px;
+}
+
+#copyright p{
+    text-align: center;
+    font-size: 12px;
+    color: #B7C6B8;
+    font-family: Arial, Helvetica, sans-serif;
+}
